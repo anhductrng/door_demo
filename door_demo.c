@@ -164,7 +164,7 @@ void main()
       doc_thoi_gian_tu_realtime () ;
       giaytam = giay_ds13;
       hien_thi_thoi_gian_ds13b07 () ;
-      //Chay motor auto trong gio lam viec khi co nguoi
+      //Run the motor automatically during working hours when someone is at the door
       this_hour = gio_ds13 / 16 * 10 + gio_ds13 % 16;
       if(this_hour >= start_time && this_hour <= end_time)
       {
@@ -172,7 +172,7 @@ void main()
          lcd_goto_xy(2,0);
          lcd_data("                    ");
       }
-      //Ngoai gio lam viec yeu cau nhap pass
+      //password required when out of business hours
       else
       {
          lcd_goto_xy(2,0);
@@ -190,12 +190,12 @@ void main()
                }
                password_enter[len - 1] = mp;
             }
-            //Xoa het pass
+            //delete password
             if(mp == 0x0a)
             {
                delete_all();
             }
-            //Xac nhan pass
+            // password confirmation
             if(mp == 0x0f)
             {
                is_correct = check_password(password_set, password_enter, len);
@@ -231,7 +231,7 @@ void main()
             is_correct = 0;
          }
       }
-      //Nhap sai 3 lan bao dong
+      // wrong input 3 times turn on the alarm speaker
       if(false_cnt >= 3)
       {
          lcd_goto_xy(3,0);
