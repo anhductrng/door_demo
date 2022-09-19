@@ -1,0 +1,182 @@
+ÀÄdoor_demo
+   ÃÄMAIN  0/592  Ram=3
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄSET_UP_PORT_IC_CHOT  0/30  Ram=0
+   ³  ÃÄDC_MOTOR_ENABLE  0/8  Ram=0
+   ³  ³  ÀÄXUAT_BUZZER_RELAY  0/38  Ram=2
+   ³  ³     ÃÄXUAT_1BYTE  0/42  Ram=3
+   ³  ³     ÃÄXUAT_1BYTE  0/42  Ram=3
+   ³  ³     ÀÄMO_IC_74573_B_THONG_DL  0/48  Ram=0
+   ³  ÃÄDC_MOTOR_STOP  0/10  Ram=0
+   ³  ÃÄSETUP_LCD  0/72  Ram=0
+   ³  ³  ÃÄLCD_COMMAND  0/22  Ram=1
+   ³  ³  ³  ÀÄLCD_XUAT_8BIT  0/26  Ram=1
+   ³  ³  ³     ÃÄXUAT_LCD20X4  0/16  Ram=2
+   ³  ³  ³     ³  ÀÄXUAT_GLCD_LCD  0/44  Ram=0
+   ³  ³  ³     ³     ÃÄXUAT_1BYTE  0/42  Ram=3
+   ³  ³  ³     ³     ÃÄXUAT_1BYTE  0/42  Ram=3
+   ³  ³  ³     ³     ÃÄXUAT_1BYTE  0/42  Ram=3
+   ³  ³  ³     ³     ÃÄXUAT_1BYTE  0/42  Ram=3
+   ³  ³  ³     ³     ÀÄMO_IC_74573_A_THONG_DL  0/46  Ram=0
+   ³  ³  ³     ÀÄXUAT_LCD20X4  0/16  Ram=2
+   ³  ³  ³        ÀÄ*
+   ³  ³  ÃÄLCD_COMMAND  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_COMMAND  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÀÄLCD_COMMAND  0/22  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄLCD_GOTO_XY  0/26  Ram=3
+   ³  ³  ÃÄ@const840  0/30  Ram=0
+   ³  ³  ÀÄLCD_COMMAND  0/22  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄ@PSTRINGC_823  0/32  Ram=2
+   ³  ³  ÀÄLCD_DATA  0/22  Ram=1
+   ³  ³     ÀÄLCD_XUAT_8BIT  0/26  Ram=1
+   ³  ³        ÀÄ*
+   ³  ÃÄLCD_GOTO_XY  0/26  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_823  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄDOC_THOI_GIAN_TU_REALTIME  0/214  Ram=0
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÀÄ@I2C_READ_1  0/102  Ram=3
+   ³  ÃÄTHIET_LAP_THOI_GIAN_HIEN_TAI  0/38  Ram=0
+   ³  ÃÄNAP_THOI_GIAN_HTAI_VAO_DS13B07  0/136  Ram=0
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÀÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ÃÄDOC_THOI_GIAN_TU_REALTIME  0/214  Ram=0
+   ³  ³  ÀÄ*
+   ³  ÃÄDOC_THOI_GIAN_TU_REALTIME  0/214  Ram=0
+   ³  ³  ÀÄ*
+   ³  ÃÄHIEN_THI_THOI_GIAN_DS13B07  0/220  Ram=1
+   ³  ³  ÃÄLCD_COMMAND  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_COMMAND  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLCD_DATA  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄLCD_DATA  0/22  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄrun_motor  0/52  Ram=1
+   ³  ³  ÀÄcount_guest  0/320  Ram=12
+   ³  ³     ÃÄ@MUL1616  0/32  Ram=5
+   ³  ³     ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³     ÃÄ@const686  0/42  Ram=0
+   ³  ³     ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³     ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³     ÃÄ@const686  0/42  Ram=0
+   ³  ³     ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³     ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³     ÃÄ@const686  0/42  Ram=0
+   ³  ³     ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³     ÃÄ@const686  0/42  Ram=0
+   ³  ³     ÀÄXUAT_4LED_7DOAN_4SO  0/44  Ram=4
+   ³  ³        ÃÄXUAT_1BYTE  0/42  Ram=3
+   ³  ³        ÃÄXUAT_1BYTE  0/42  Ram=3
+   ³  ³        ÃÄXUAT_1BYTE  0/42  Ram=3
+   ³  ³        ÃÄXUAT_1BYTE  0/42  Ram=3
+   ³  ³        ÀÄMO_IC_74573_A_THONG_DL  0/46  Ram=0
+   ³  ÃÄLCD_GOTO_XY  0/26  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_823  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄLCD_GOTO_XY  0/26  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_823  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄprint_password  0/50  Ram=1
+   ³  ³  ÃÄLCD_GOTO_XY  0/26  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄLCD_DATA  0/22  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄKEY_4X4_DW  0/50  Ram=0
+   ³  ³  ÃÄKEY_NHAN  0/130  Ram=4
+   ³  ³  ³  ÃÄ@const860  0/30  Ram=0
+   ³  ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ³  ÀÄ@MUL88  0/76  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄKEY_NHAN  0/130  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄKEY_NHAN  0/130  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ@delay_ms1  0/38  Ram=1
+   ³  ÃÄdelete_all  0/30  Ram=2
+   ³  ÃÄcheck_password  0/64  Ram=6
+   ³  ÃÄLCD_GOTO_XY  0/26  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_823  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄdelete_all  0/30  Ram=2
+   ³  ÃÄLCD_GOTO_XY  0/26  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_823  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄrun_motor  0/52  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄDC_MOTOR_CONTROL  0/24  Ram=1
+   ³  ³  ÃÄDC_MOTOR_QUAY_THUAN  0/12  Ram=0
+   ³  ³  ÃÄDC_MOTOR_QUAY_NGHICH  0/12  Ram=0
+   ³  ³  ÀÄDC_MOTOR_STOP  0/10  Ram=0
+   ³  ÃÄLCD_GOTO_XY  0/26  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_823  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄon_alarm  0/30  Ram=0
+   ³  ³  ÃÄBUZZER_ON  0/10  Ram=0
+   ³  ³  ³  ÀÄXUAT_BUZZER_RELAY  0/38  Ram=2
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÀÄBUZZER_OFF  0/8  Ram=0
+   ³  ³     ÀÄXUAT_BUZZER_RELAY  0/38  Ram=2
+   ³  ³        ÀÄ*
+   ³  ÀÄBUZZER_OFF  0/8  Ram=0
+   ³     ÀÄ*
+   ÀÄinterrupt_timer1  0/46  Ram=1

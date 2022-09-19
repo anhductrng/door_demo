@@ -1,0 +1,270 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     TIN_HIEU_DK_74573_A
+016.2   G_LCDA
+016.4   G_32A
+016.6   G_4A
+017     TIN_HIEU_DK_74573_B
+017.2   G_RBDCB
+017.4   G_8B
+017.6   G_MTB
+018     DL_BTN
+019-01A RBDC
+019.0   STEP_MOTOR_ENABLE
+019.1   STEP_MOTOR_IN1
+019.2   STEP_MOTOR_IN2
+019.3   STEP_MOTOR_IN3
+019.4   STEP_MOTOR_IN4
+019.5   DC_ENABLE
+019.6   PWRKEY
+01A.0   BUZZER
+01A.1   TRIAC_1
+01A.2   TRIAC_2
+01A.3   RELAY_1
+01A.4   RELAY_2
+01B     DONVI4
+01C     CHUC4
+01D     TRAM4
+01E     NGAN4
+01F     LCDDATA
+020     LCDCONTROL
+021     GLCDDATA
+022     GLCDCONTROL
+023-02A LED_7DQ
+02B     TT8LED
+02C.0   DCMOTOR_TN
+02C.1   DCMOTOR_ONOFF
+02C.2   pir_temp
+02C.3   is_correct
+02D-02E PWM_DUTY
+02F     LCD_CONTROL
+02F.0   LCD_E
+02F.1   LCD_RW
+02F.2   LCD_RS
+02F.3   LCD_P
+030     NAM_DS13
+031     THANG_DS13
+032     NGAY_DS13
+033     THU_DS13
+034     GIO_DS13
+035     PHUT_DS13
+036     GIAY_DS13
+037     MA_DS13
+038     CONTROL_DS13
+039     GIAYTAM
+03A     MPT1
+03B     MPT2
+03C     bdn
+03D     sec
+03E     mp
+03F     start_time
+040     end_time
+041     this_hour
+042     dcmotor_runtime
+043     false_cnt
+044-045 t0
+046-047 guest_count
+048-049 guest_total
+04A     len
+04B-052 password_set
+053-05A password_enter
+05B     MAIN.I
+05C     XUAT_BUZZER_RELAY.RBDC1
+05C     @I2C_WRITE_1.P1
+05C     print_password.I
+05C     KEY_NHAN.MAPHIM
+05C-05D @MUL1616.P1
+05C-05D check_password.arr_1
+05C     @I2C_READ_1.P1
+05C     delete_all.I
+05C     DC_MOTOR_CONTROL.@SCRATCH1
+05C     HIEN_THI_THOI_GIAN_DS13B07.@SCRATCH1
+05C     count_guest.@SCRATCH1
+05C     run_motor.@SCRATCH1
+05C     MAIN.@SCRATCH1
+05C     @PSTRINGC_823.@SCRATCH1
+05D     KEY_NHAN.HANG
+05D     XUAT_BUZZER_RELAY.RBDC2
+05D     LCD_GOTO_XY.x
+05D     @I2C_READ_1.@SCRATCH1
+05D     count_guest.@SCRATCH2
+05D     delete_all.@SCRATCH1
+05D     print_password.@SCRATCH1
+05D     MAIN.@SCRATCH2
+05D     @PSTRINGC_823.@SCRATCH2
+05E-05F @MUL1616.P1
+05E-05F check_password.arr_2
+05E     LCD_DATA.LCD_DATA_X
+05E     KEY_NHAN.COT
+05E     LCD_GOTO_XY.Y
+05E     @I2C_READ_1.@SCRATCH2
+05E     count_guest.@SCRATCH3
+05E     delete_all.@SCRATCH2
+05E     MAIN.@SCRATCH3
+05F     @MUL88.P1
+05F     @delay_ms1.P2
+05F     LCD_GOTO_XY.@SCRATCH1
+05F     KEY_NHAN.@SCRATCH1
+05F     count_guest.@SCRATCH4
+060     check_password.length
+060     @MUL88.P1
+060     LCD_COMMAND.LCD_DATA_X
+060     count_guest.@SCRATCH5
+060     @MUL1616.@SCRATCH1
+061     check_password.I
+061     LCD_XUAT_8BIT.LCD_DATA_X
+061     count_guest.@SCRATCH6
+062     XUAT_LCD20X4.LCD_SIGNAL
+062     count_guest.@SCRATCH7
+062     check_password.@SCRATCH1
+063     XUAT_LCD20X4.LCD_INS_HTHI
+063     count_guest.@SCRATCH8
+064     count_guest.@SCRATCH9
+065-066 @DIV1616.P1
+065     count_guest.@SCRATCH10
+066     count_guest.@SCRATCH11
+067-068 @DIV1616.P1
+067     count_guest.@SCRATCH12
+068     XUAT_4LED_7DOAN_4SO.BL743
+069     XUAT_4LED_7DOAN_4SO.BL742
+069     @DIV1616.@SCRATCH1
+06A     XUAT_4LED_7DOAN_4SO.BL741
+06B     XUAT_4LED_7DOAN_4SO.BL740
+06C     XUAT_1BYTE.BYTEXUAT
+06D     XUAT_1BYTE.SB
+06E     XUAT_1BYTE.x
+06E.7   XUAT_1BYTE.BSERI
+06F     interrupt_timer1.@SCRATCH1
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PROGRAM_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000096  MA7DOAN.call
+0000B0  MA7DOAN.data
+0000C0  LCD_VITRI.call
+0000DA  LCD_VITRI.data
+0000DE  MAQUETKEY.call
+0000F8  MAQUETKEY.data
+0000FC  interrupt_timer1
+00012A  @const911.call
+000136  @const913.call
+000142  @const914.call
+000158  @const915.call
+000164  @const917.call
+00017A  @const918.call
+000190  @const919.call
+0001A6  SET_UP_PORT_IC_CHOT
+0001C4  XUAT_1BYTE
+0001EE  MO_IC_74573_B_THONG_DL
+00021E  XUAT_BUZZER_RELAY
+000244  DC_MOTOR_ENABLE
+00024C  DC_MOTOR_STOP
+000256  MO_IC_74573_A_THONG_DL
+000284  XUAT_GLCD_LCD
+0002B0  XUAT_LCD20X4
+0002C0  LCD_XUAT_8BIT
+0002DA  LCD_COMMAND
+0002F0  @delay_ms1
+000316  SETUP_LCD
+00035E  LCD_GOTO_XY
+000378  LCD_DATA
+00038E  @PSTRINGC_823
+0003AE  @I2C_WRITE_1
+00041A  @I2C_READ_1
+000480  DOC_THOI_GIAN_TU_REALTIME
+000556  THIET_LAP_THOI_GIAN_HIEN_TAI
+00057C  NAP_THOI_GIAN_HTAI_VAO_DS13B07
+000604  HIEN_THI_THOI_GIAN_DS13B07
+0006E0  @MUL1616
+000700  @DIV1616
+000742  XUAT_4LED_7DOAN_4SO
+00076E  count_guest
+0008AE  run_motor
+0008E2  print_password
+000914  @MUL88
+000960  KEY_NHAN
+0009E2  KEY_4X4_DW
+000A14  delete_all
+000A32  check_password
+000A72  DC_MOTOR_QUAY_THUAN
+000A7E  DC_MOTOR_QUAY_NGHICH
+000A8A  DC_MOTOR_CONTROL
+000AA2  BUZZER_ON
+000AAC  BUZZER_OFF
+000AB4  on_alarm
+000AD2  MAIN
+000AD2  @cinit1
+000B08  @cinit2
+
+Project Directory:
+    C:\Users\ADMIN\Desktop\New folder\
+
+Project Files:
+    door_demo.c                                             [19-Thg9-22 10:40  CRC=A5727E3A]
+    lib\tv_pickit2_shift_1 - d503.c                         [19-Thg6-22 20:52  CRC=F5DB0C9D]
+    ..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.H  [12-Thg11-13 14:35  CRC=5337E248]
+    lib\tv_pickit2_shift_dc_motor.c                         [19-Thg6-22 20:51  CRC=B77513A4]
+    lib\tv_pickit2_shift_ds1307_i2c.c                       [30-Thg6-22 15:50  CRC=2637F7F7]
+    lib\TV_PICKIT2_SHIFT_LCD.c                              [19-Thg6-22 20:51  CRC=FA765C9E]
+    lib\tv_pickit2_shift_key4x4_138.c                       [29-Thg6-22 17:33  CRC=BA70B5D9]
+
+Source signature=3B8A410A
+
+Units:
+    door_demo (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   door_demo.xsym
+    Errors:      door_demo.err
+    Ext Symbols: door_demo.esym
+    INHX32:      door_demo.hex
+    Symbols:     door_demo.sym
+    List:        door_demo.lst
+    Debug/COFF:  door_demo.cof
+    Project:     door_demo.ccspjt
+    Call Tree:   door_demo.tre
+    Statistics:  door_demo.STA

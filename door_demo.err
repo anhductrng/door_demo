@@ -1,0 +1,4 @@
+>>> Warning 202 "C:\Users\ADMIN\Desktop\New folder\lib\TV_PICKIT2_SHIFT_LCD.c" Line 66(21,30): Variable never used:   LCD_SO_XX
+      Memory usage:   ROM=10%      RAM=5% - 5%
+      0 Errors,  1 Warnings.
+Build Successful.

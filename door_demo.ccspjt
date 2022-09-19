@@ -1,0 +1,16 @@
+[PROJECT]
+Target=door_demo.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=door_demo.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[door_demo.c]
+Type=4
+[mru-list]
+1=door_demo.c
+[Units]
+Count=1
+1=door_demo (main)
